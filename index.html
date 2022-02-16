@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<head>
+  <html lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Karla:wght@300&family=Poppins:wght@300&family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+</head>
+<body>
+    <main>
+        <section>
+             <!--Main One-->
+            <div class="Main-one">
+                <!-- people -->
+                <div class="people">
+                    <img src="images/image-jeremy.png" alt="picturejeremy">
+                    <div>
+	                    <p>Report for</p>
+	                    <p>Jeremy Robson</p>
+                    </div>
+                </div>
+                <!--Selector-->
+                <div class="selector">
+                    <p class="btn-daily">Daily</p>
+                    <p class="btn-weekly btn-on">Weekly</p>
+                    <p class="btn-monthly">Monthly</p>
+                </div>
+            </div>
+             <!--Main Two-->
+            <div class="Main-two">
+                 <!-- Box Top-->
+                <div class="box-top">
+                    <div class="cadre">
+                        <img src="images/icon-work.svg" alt="cadrepicture">
+			<div>
+			    <div class="cadre-header">
+				<p>Work</p>
+				<img src="images/icon-ellipsis.svg" alt="bouton...">
+			    </div>
+			     <!-- Daily -->
+			    <div class="daily">
+			    	<p class="hours"><span class="num" data-val="5">0</span>hrs</p>
+			    	<p class="previous">Previous - <span class="num" data-val="7">0</span>hrs</p>
+			    </div>
+			       <!-- Weekly -->			
+			    <div class="weekly active">
+				<p class="hours"><span class="num" data-val="32">0</span>hrs</p>
+				<p class="previous">Previous - <span class="num" data-val="36">00</span>hrs</p>
+			    </div>
+			     <!-- Monthly -->
+			    <div class="monthly">	
+			    	<p class="hours"><span class="num" data-val="103">000</span>hrs</p>
+			    	<p class="previous">Previous - <span class="num" data-val="128">000</span>hrs</p>
+			    </div>
+		        </div>		    
+                    </div>
+                    <div class="cadre">
+			<img src="images/icon-play.svg" alt="cadrepicture">
+			<div>
+			    <div class="cadre-header">
+				<p>Play</p>
+				<img src="images/icon-ellipsis.svg" alt="bouton...">
+			    </div>			      
+			      <!-- Daily -->
+			    <div class="daily">
+			    	<p class="hours"><span class="num" data-val="1">0</span>hr</p>
+			    	<p class="previous">Previous - <span class="num" data-val="2">0</span>hrs</p>
+			    </div>
+			      <!-- Weekly -->			
+			    <div class="weekly active">
+				<p class="hours"><span class="num" data-val="10">00</span>hrs</p>
+				<p class="previous">Previous - <span class="num" data-val="8">0</span>hrs</p>
+			    </div>
+			     <!-- Monthly -->
+			    <div class="monthly">	
+			    	<p class="hours"><span class="num" data-val="23">00</span>hrs</p>
+			    	<p class="previous">Previous - <span class="num" data-val="29">00</span>hrs</p>
+			    </div>
+			</div>
+		    </div>
+                    <div class="cadre">
+			<img src="images/icon-study.svg" alt="cadrepicture">
+			<div>
+			    <div class="cadre-header">
+				<p>Study</p>
+				<img src="images/icon-ellipsis.svg" alt="bouton...">
+			    </div>
+			      <!-- Daily -->
+			    <div class="daily">
+			    	<p class="hours">0hr</p>
+			    	<p class="previous">Previous - <span class="num" data-val="1">0</span>hr</p>
+			    </div>
+			      <!-- Weekly -->			
+			    <div class="weekly active">
+				<p class="hours"><span class="num" data-val="4">0</span>hrs</p>
+				<p class="previous">Previous - <span class="num" data-val="7">0</span>hrs</p>
+			    </div>
+			     <!-- Monthly -->
+			    <div class="monthly">	
+			    	<p class="hours"><span class="num" data-val="13">00</span>hrs</p>
+			    	<p class="previous">Previous - <span class="num" data-val="19">00</span>hrs</p>
+			    </div>
+		        </div>
+		    </div>
+                </div>
+                 <!-- Box Bottom-->
+                <div class="box-bottom">
+                    <div class="cadre">
+			<img src="images/icon-exercise.svg" alt="cadrepicture">
+			<div>
+			    <div class="cadre-header">
+				<p>Exercise</p>
+				<img src="images/icon-ellipsis.svg" alt="bouton...">
+			    </div>
+			      <!-- Daily -->
+			    <div class="daily">
+			    	<p class="hours"><span class="num" data-val="1">0</span>hr</p>
+			    	<p class="previous">Previous - <span class="num" data-val="1">0</span>hr</p>
+			    </div>
+			      <!-- Weekly -->			
+			    <div class="weekly active">
+				<p class="hours"><span class="num" data-val="4">0</span>hrs</p>
+				<p class="previous">Previous - <span class="num" data-val="5">0</span>hrs</p>
+			    </div>
+			     <!-- Monthly -->
+			    <div class="monthly">	
+			    	<p class="hours"><span class="num" data-val="11">00</span>hrs</p>
+			    	<p class="previous">Previous - <span class="num" data-val="18">00</span>hrs</p>
+			    </div>
+			</div>
+		    </div>
+                    <div class="cadre">
+			<img src="images/icon-social.svg" alt="cadrepicture">
+			<div>
+			    <div class="cadre-header">
+				<p>Social</p>
+				<img src="images/icon-ellipsis.svg" alt="bouton...">
+			    </div>
+			     <!-- Daily -->
+			    <div class="daily">
+			    	<p class="hours"><span class="num" data-val="1">0</span>hr</p>
+			    	<p class="previous">Previous - <span class="num" data-val="3">0</span>hrs</p>
+			    </div>
+			      <!-- Weekly -->			
+			    <div class="weekly active">
+				<p class="hours"><span class="num" data-val="5">0</span>hrs</p>
+				<p class="previous">Previous - <span class="num" data-val="10">0</span>hrs</p>
+			    </div>
+			     <!-- Monthly -->
+			    <div class="monthly">	
+			    	<p class="hours"><span class="num" data-val="21">0</span>hrs</p>
+			    	<p class="previous">Previous - <span class="num" data-val="23">0</span>hrs</p>
+			    </div>
+			</div>
+		    </div>
+                    <div class="cadre">
+			<img src="images/icon-self-care.svg" alt="cadrepicture">
+			<div>
+			     <div class="cadre-header">
+				<p>Self Care</p>
+				<img src="images/icon-ellipsis.svg" alt="bouton...">
+			    </div>
+ 			      <!-- Daily -->
+			    <div class="daily">
+			    	<p class="hours">0hrs</p>
+			    	<p class="previous">Previous - <span class="num" data-val="1">0</span>hrs</p>
+			    </div>
+			      <!-- Weekly -->			
+			    <div class="weekly active">
+				<p class="hours"><span class="num" data-val="2">0</span>hrs</p>
+				<p class="previous">Previous - <span class="num" data-val="2">0</span>hrs</p>
+			    </div>
+			     <!-- Monthly -->
+			    <div class="monthly">	
+			    	<p class="hours"><span class="num" data-val="7">0</span>hrs</p>
+			    	<p class="previous">Previous - <span class="num" data-val="11">00</span>hrs</p>
+			    </div>
+			</div>
+		    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="app.js"></script>
+</html>
