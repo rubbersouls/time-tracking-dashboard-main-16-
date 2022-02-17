@@ -69,7 +69,8 @@ section{
 
 .people>div>:nth-child(2){
   margin-top: 13px;
-  font-size: 2.5em;
+  font-size: 1.9em;
+  font-weight: 500;
 }
 
 .selector{
@@ -80,6 +81,12 @@ section{
   margin-top: 29px;
   font-size: 0.9em;
 }
+
+.selector>h1{
+  margin-top: 29px;
+  font-size: 0.9em;
+}
+
 
 .btn-daily{
   opacity: 33%;
@@ -114,6 +121,7 @@ section{
   flex-wrap: wrap;
   display: flex;
   justify-content: flex-end;
+  overflow: hidden;
 }
 
 .cadre>img{
